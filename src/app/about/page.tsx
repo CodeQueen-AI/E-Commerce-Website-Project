@@ -2,7 +2,7 @@ const About = () => {
   return (
     <div className="h-screen bg-gradient-to-tl from-pink-950 via-pink-400 to-pink-600 flex items-center justify-center">
       <div className="text-center text-white px-6 py-12 max-w-3xl w-full">
-        <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold bg-clip-text text-purple-950 mb-6">
+        <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold bg-clip-text text-purple-950 mb-6">
           About Us
         </h1>
         <p className="text-lg sm:text-xl md:text-2xl text-gray-100 leading-relaxed mb-8">
