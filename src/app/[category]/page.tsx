@@ -1,4 +1,5 @@
 'use client';
+
 import React from 'react';
 import { MdOutlineShoppingCart } from "react-icons/md";
 import { FaRegCheckCircle } from "react-icons/fa";
@@ -29,7 +30,7 @@ const products = {
     { id: 3, name: 'Green Nailpolish', price: 1000, image: '/N3.jpg' },
   ],
   Accessories: [
-    { id: 1, name: 'Fossil ', price: 1400, image: '/A1.webp' },
+    { id: 1, name: 'Fossil', price: 1400, image: '/A1.webp' },
     { id: 2, name: 'Kory Burch', price: 2000, image: '/A2.jpg' },
     { id: 3, name: 'Kate Spade', price: 1000, image: '/A3.webp' },
   ],
@@ -41,7 +42,7 @@ const products = {
   Facemakeup: [
     { id: 1, name: 'Maybelline', price: 1900, image: '/F1.webp' },
     { id: 2, name: 'Pro-Matte', price: 1100, image: '/F2.webp' },
-    { id: 6, name: 'Milani Smooth', price: 2000, image: '/F3.webp' },
+    { id: 3, name: 'Milani Smooth', price: 2000, image: '/F3.webp' },
   ],
   Perfume: [
     { id: 1, name: 'Ford Black', price: 1400, image: '/B1.avif' },
@@ -52,7 +53,7 @@ const products = {
 
 const CategoryPage = () => {
   const params = useParams();
-  const { category } = params;
+  const { category } = params as { category: keyof typeof products };
   const { addToCart } = useCart();
 
   const categoryProducts = products[category] || [];
