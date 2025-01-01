@@ -17,7 +17,36 @@ const products = {
     { id: 2, name: 'Huda Beauty Lipstick', price: 2000, image: '/L2.jpg' },
     { id: 3, name: 'Tilbury Lipstick', price: 1200, image: '/L3.avif' },
   ],
-  // Add other categories as needed...
+  Watch: [
+    { id: 1, name: 'Fossil Jacqueline', price: 1350, image: '/W1.webp' },
+    { id: 2, name: 'Seiko Presage', price: 1670, image: '/W2.webp' },
+    { id: 3, name: 'Casio Baby-G', price: 2590, image: '/W3.webp' },
+  ],
+  Nailpolish: [
+    { id: 1, name: 'Revlon ColorStay', price: 1500, image: '/N1.avif' },
+    { id: 2, name: 'Peach Nailpolish', price: 1000, image: '/N2.webp' },
+    { id: 3, name: 'Green Nailpolish', price: 1000, image: '/N3.jpg' },
+  ],
+  Accessories: [
+    { id: 1, name: 'Fossil ', price: 1400, image: '/A1.webp' },
+    { id: 2, name: 'Kory Burch', price: 2000, image: '/A2.jpg' },
+    { id: 3, name: 'Kate Spade', price: 1000, image: '/A3.webp' },
+  ],
+  Jewellery: [
+    { id: 1, name: 'Ring', price: 1500, image: '/J1.webp' },
+    { id: 2, name: 'Ring', price: 1300, image: '/J2.webp' },
+    { id: 3, name: 'Earrings', price: 2000, image: '/J3.jpg' },
+  ],
+  Facemakeup: [
+    { id: 1, name: 'Maybelline', price: 1900, image: '/F1.webp' },
+    { id: 2, name: 'Pro-Matte', price: 1100, image: '/F2.webp' },
+    { id: 6, name: 'Milani Smooth', price: 2000, image: '/F3.webp' },
+  ],
+  Perfume: [
+    { id: 1, name: 'Ford Black', price: 1400, image: '/B1.avif' },
+    { id: 2, name: 'Gucci Bloom', price: 1300, image: '/B2.avif' },
+    { id: 3, name: 'Armani Code', price: 2000, image: '/B3.avif' },
+  ]
 };
 
 const ProductDetailPage = () => {
