@@ -1,3 +1,8 @@
+
+
+
+
+
 'use client';
 
 import { useParams } from 'next/navigation';
@@ -49,6 +54,7 @@ const products = {
   ]
 };
 
+
 const ProductDetailPage = () => {
   const params = useParams();
   const { category, detail } = params;
@@ -60,7 +66,8 @@ const ProductDetailPage = () => {
 
   // Ensure TypeScript knows `category` is a key of `products`
   const categoryProducts = products[category as keyof typeof products] || [];
-  const product = categoryProducts.find((p) => p.id === parseInt(detail, 10));
+  const detailId = typeof detail === 'string' ? parseInt(detail, 10) : NaN;
+  const product = categoryProducts.find((p) => p.id === detailId);
 
   if (!product) {
     return <div>Product not found</div>;
