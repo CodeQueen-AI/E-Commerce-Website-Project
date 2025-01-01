@@ -9,7 +9,9 @@ const Hero = () => {
         <div className="hero-content text-neutral-content text-center flex items-center justify-center min-h-full pt-28">
           <div className="max-w-md text-center">
             <h1 className="mb-5 underline scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl text-[#F7418F]">
-              Makeup Magic <span className="text-white">Awaits</span>
+              Makeup Magic 
+              <br />
+              <span className="text-white">Awaits</span>
             </h1>
             <p className="mb-5 scroll-m-20 text-xl font-semibold tracking-tight text-[#e364b0]">
               Discover amazing products at unbeatable prices. Enjoy high-quality
