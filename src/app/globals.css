@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-img {
+  background-image: url('/Home.webp');
+}
+.promo-1 {
+  background-image: url('/P1.webp');
+}
+.promo-2 {
+  background-image: url('/P2.webp');
+}
+.promo-3 {
+  background-image: url('/P3.webp');
+}
+.promo-4 {
+  background-image: url('/P4.webp');
+}
