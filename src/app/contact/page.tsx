@@ -48,7 +48,7 @@ export default function Contact() {
           <textarea
             id="message"
             name="message"
-            rows="6"
+            rows={6}
             className="w-full px-4 py-3 border border-gray-300 bg-white text-black placeholder-opacity-70 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-opacity-50 transition-all duration-200"
             placeholder="Write your message"
             required
