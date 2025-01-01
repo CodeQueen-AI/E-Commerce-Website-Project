@@ -1,6 +1,4 @@
-
-
-
+'use client'
 import React from 'react';
 import { MdOutlineShoppingCart } from "react-icons/md";
 import { FaRegCheckCircle } from "react-icons/fa";
