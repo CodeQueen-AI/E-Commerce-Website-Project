@@ -1,8 +1,6 @@
 
 
 
-'use client';
-
 import React from 'react';
 import { MdOutlineShoppingCart } from "react-icons/md";
 import { FaRegCheckCircle } from "react-icons/fa";
@@ -97,7 +95,7 @@ const CategoryPage = () => {
                 </div>
                 <div className="flex mt-3 justify-center">
                   <button
-                    onClick={() => addToCart(product)}
+                    onClick={() => addToCart({ ...product, quantity: 1 })}
                     className="text-white bg-[#EC9CD3] border-0 py-2 px-6 focus:outline-none hover:bg-[#F35588] rounded flex items-center space-x-2 group"
                   >
                     <MdOutlineShoppingCart className="group-hover:animate-bounce" />
