@@ -14,8 +14,9 @@ const About = () => {
 
         {/* Quote */}
         <p className="italic text-lg text-pink-700 mb-6">
-          Makeup is not a mask, it's an art — the art of expressing who you truly are.
-        </p>
+  &quot;Makeup is not a mask, it&apos;s an art — the art of expressing who you truly are.&quot;
+</p>
+
 
         {/* Paragraph */}
         <p className="text-gray-700 text-base sm:text-lg leading-relaxed">
@@ -31,4 +32,5 @@ const About = () => {
 };
 
 export default About;
+
 
