@@ -41,7 +41,7 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer className="relative bg-gradient-to-r from-pink-700 via-pink-600 to-pink-700 text-pink-100 pt-16 pb-8 overflow-hidden">
+    <footer className="relative bg-gradient-to-r from-[#FA58B6] via-[#F70776] to-[#F10086] text-pink-100 pt-16 pb-8 overflow-hidden">
       {/* Glass overlay */}
       <div className="absolute inset-0 backdrop-blur-md bg-white/5"></div>
 
@@ -125,5 +125,6 @@ export default function Footer() {
     </footer>
   );
 }
+
 
 
