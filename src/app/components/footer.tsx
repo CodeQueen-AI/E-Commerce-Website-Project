@@ -14,8 +14,8 @@ export default function Footer() {
           <Image
             src="/logo.png" // <-- apna logo path yahan do
             alt="ShopEase Logo"
-            width={70}
-            height={70}
+            width={80}
+            height={80}
             className="mb-4"
           />
           <p className="text-sm leading-relaxed">
@@ -82,11 +82,12 @@ export default function Footer() {
 
       {/* Bottom bar */}
       <div className="relative border-t border-pink-400/30 mt-12 pt-4 text-center text-sm z-10">
-        © {new Date().getFullYear()} ShopEase — All Rights Reserved
+        © {new Date().getFullYear()} BeautyBox — All Rights Reserved
       </div>
     </footer>
   );
 }
+
 
 
 
