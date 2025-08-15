@@ -14,8 +14,8 @@ export default function Footer() {
           <Image
             src="/logo.png" // <-- apna logo path yahan do
             alt="ShopEase Logo"
-            width={100}
-            height={40}
+            width={70}
+            height={70}
             className="mb-4"
           />
           <p className="text-sm leading-relaxed">
@@ -87,6 +87,7 @@ export default function Footer() {
     </footer>
   );
 }
+
 
 
 
